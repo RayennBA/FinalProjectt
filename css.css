@@ -1,0 +1,424 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #274c5b;
+    font-weight: bold;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    
+}
+.logo{
+    position: relative;
+    
+}
+.logo img {
+    width: 2rem; 
+    height: auto; 
+    margin-left: 6rem;
+}
+.logo-text {
+    position: absolute;
+
+    font-size: 2rem; 
+    font-weight: bold;
+    color: #175d51;
+}
+.menu{
+    display: flex;
+    gap: 10px;
+    margin-right: 600px;
+}
+.container{
+    display: flex;
+    margin-right: 10rem;
+
+}
+.cart{
+    display: flex;
+}
+.cart-text {
+    font-weight: bold;
+    color: #175d51;
+    display: flex;
+    align-items: center;
+}
+
+.cart-img{
+    margin-right: 20px; 
+    width: 3rem; 
+    height: 3rem; 
+    border-radius: 50%; 
+    overflow: hidden;
+
+}
+.cov img{
+    width: 1578px;
+    margin-left: -50px;
+    margin-top: 40px;
+}
+
+#workdiv {
+    padding-top: -5000%;
+    position: relative;
+    z-index: 2;
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    grid-template-rows: repeat(3,auto);
+    margin-left: 3rem;
+}
+
+.productdiv {
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 16.5rem;
+    height: 30rem;
+    padding-left: 1rem;
+    border-radius: 16px;
+    background-color: #f9f8f8;
+    margin: 10px 20px;
+    cursor: pointer;
+    transition: background-color 2s ease ;
+}
+
+.titre {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    margin-top: 13rem;
+    margin-left: 45%;
+    font-size: 3.5rem;
+}
+.productdiv {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.productdiv:hover {
+    transform: scale(1.05);
+}
+
+.imageprod {
+    margin-left: 30px;
+    width: 70%;
+    height: 50%;
+}
+
+.title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+}
+
+.category {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    margin-left: 1.3rem;
+    margin-top: -40px;
+    margin-bottom: 13px;
+    text-size-adjust: 1px;
+    align-items: center;
+
+    
+}
+
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e44d26;
+}
+ 
+.stars{
+    width: 70px;
+    height: auto;
+    margin-left: 90px;
+}
+
+
+.box {
+    width: 135px;
+    height: 20px;
+    margin-bottom: 15px;
+    z-index: 1;
+    text-align: center;
+    
+
+}
+.buy {
+    width: 40px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 15px;
+
+}
+
+
+
+.Newsletter {
+    background-image: url('https://res.cloudinary.com/dtrvdcebd/image/upload/v1708266045/Clothy/l04wim0gq4l6c3rk5p32.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    padding: 50px;
+    margin-left: 90px;
+    margin-right: 500px;
+    margin-bottom: 250px;
+    margin-top: 50px;
+    height: 90px;
+    width: 78rem;
+    border-radius: 20px;
+    display: flex;
+}
+
+.Sub {
+    font-size: 40px;
+    margin-right: 0px;
+    font-weight: bold;
+    margin: 100px;
+    padding: 0px;
+    margin-top: -20px;
+    margin-left: 40px;
+    height: 50px;
+    color: #ffffff;
+}
+
+.inputt{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.Email{
+    width: 300px;
+    border-radius: 0px;
+    height: 60px;
+    font-size: 20px;
+    margin-left: 190px;
+}
+#b {
+    height: 60px;
+    width: 200px;
+    border-radius: 0px;
+    font-size: 20px;
+    background-color: #2e5457;
+    color: #ffffff;
+    
+    
+}
+
+
+footer{
+    display: flex;
+    margin: 0px 250px;
+    margin-bottom: 20px;
+}
+footer .div1{
+    width: 150px;
+}
+footer .div{
+    text-align: right;
+}
+footer .p1{
+    color: rgb(12, 97, 143);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+footer .p1:hover{
+    border-bottom: 2px solid rgb(8, 70, 103);
+}
+footer .p2{
+    color: rgb(54, 54, 54);
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+footer .p3{
+    color: rgb(92, 92, 92);
+    font-size: 12px;
+    font-weight: 600;
+}
+footer .div2{
+    text-align: center;
+    margin: 10px 0px;
+}
+footer .logo{
+    width: 25px;
+    height: 35px;
+}
+footer .logo_div{
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    cursor: pointer;
+}
+footer .title{
+    font-size: 25px;
+    color: rgb(9, 82, 121);
+    font-weight: 700;
+    margin-top: 3px;
+}
+footer .paragraph{
+    margin: 10px 10px;
+    color: gray;
+    text-align: center;
+    width: 300px;
+    font-size: 14px;
+}
+footer .img1{
+    width: 35px;
+    margin: 5px;
+    cursor: pointer;
+}
+footer .img1:hover{
+    scale: 1.2;
+}
+.footer{
+    font-size: 11px;
+    color: rgb(90, 90, 90);
+    text-align: center;
+}
+section{
+    text-align: center;
+}
+
+section .categoryDiv{
+    background-color: rgb(249 249 249);
+    width: 270px;
+    height: 350px;
+    margin-left: 80px;
+    border-radius:20px ;
+
+}
+section .category{
+    background-image: url("https://res.cloudinary.com/dtrvdcebd/image/upload/v1708266044/Clothy/giywnwhsomoybyi9vgxj.png");
+    color: #ffff;
+    margin: 10px;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 12px;
+    width: 90px;
+    height: 20px;
+    padding-top: 5px;
+
+}
+section .productImg{
+    border-radius: 30px;
+    width: 200px;
+    margin-left: 25px;
+}
+section .div{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+section .div1{
+    width: 500px;
+    text-align: left;
+    margin: 30px 30px;
+}
+section .productName{
+    font-size: 23px;
+    color: rgb(8, 70, 103);
+    font-weight: 600;
+}
+section .stars{
+    width: 100px;
+    height: 20px;
+}
+section .productPrix{
+    font-size: 20px;
+    color: rgb(8, 70, 103);
+    font-weight: 600;    
+}
+
+section .description{
+    font-size: 13px;
+    color: rgb(111, 110, 110);
+    margin-bottom:30px ;
+}
+section .quantity{
+    font-size: 15px;
+    color: rgb(8, 70, 103);
+    font-weight: 600; 
+}
+section .num{
+    border: 1px solid rgb(8, 70, 103);
+    text-align: center;
+    border-radius:5px ;
+    height: 35px;
+    width: 60px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+section .paragraph{
+    width: 550px;
+    text-align: center;
+    margin: 10px 350px;
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+}
+section .button1{
+    width:120px ;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(8, 70, 103);
+    color: #ffff;
+    cursor: pointer;
+}
+section .button1:hover{
+    background-color: rgb(5, 49, 73);
+}
+section .div3{
+    margin: 50px;
+}
+section .button2{
+    width: 180px;
+    height: 40px;
+    border: none;
+    margin: 20px;
+    color: #ffff;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: rgb(8, 70, 103);
+    cursor: pointer;
+}
+section .button2:hover{
+    color: rgb(8, 70, 103);
+    background-color: #dbdada;
+    font-weight: 600;
+
+}
+section .button3{
+    width: 180px;
+    height: 40px;
+    border: none;
+    margin: 20px;
+    color: rgb(8, 70, 103);
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: #efeded;
+    cursor: pointer;
+}
+section .button3:hover{
+    background-color: rgb(4, 36, 54);
+    color: #ffff;
+
+}
